@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Page0</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn.nomad.systems/uploads/u/use/files/Templates/Blog/Blog01/favicon.png">
@@ -438,3 +439,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
     
 <div id="cookie-bar" class="cookie-bar cookie-bar--bottom"><div class="cookie-bar__inner"><span class="cookie-bar__message">We use cookies to provide our services. By using this website, you agree to this.</span><span class="cookie-bar__buttons"><button type="button" class="cookie-bar__btn">OK</button><a href="https://photoblog.nomad.systems/Privacy/" target="_blank" class="cookie-bar__link cookie-bar__link--cookies-info">More information</a></span></div></div></body></html>
+<!-- // added below -->
+<style>
+.hidecontainer {
+  opacity: 0.1;
+  transition: 1s;
+}
+.showcontainer {
+  opacity: 1;
+  transition: 1s;
+}
+</style>
+<script type="text/javascript" src="exchange-content.js"></script>
+
+<script>window.filter_targets=window.filter_targets||{}; window.filter_targets["r8-bl-element-listitems"]={fs:[null,"travel","city"],items:[["travel","city"],["travel"]]};</script>
