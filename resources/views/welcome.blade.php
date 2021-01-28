@@ -442,7 +442,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- // added below -->
 <style>
 .hidecontainer {
-  opacity: 0.1;
+  opacity: 0;
   transition: 1s;
 }
 .showcontainer {

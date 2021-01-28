@@ -11,7 +11,7 @@ class ContentController extends Controller
         error_log('---------------------------------------');
         error_log($request->id);
         $content = Content::find($request->id);
-        $ret = json_encode('"'.$content->html_content.'"');
+        $ret = json_encode($content->html_content);
         error_log($ret);
         return $ret;
     }
