@@ -440,16 +440,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
 <div id="cookie-bar" class="cookie-bar cookie-bar--bottom"><div class="cookie-bar__inner"><span class="cookie-bar__message">We use cookies to provide our services. By using this website, you agree to this.</span><span class="cookie-bar__buttons"><button type="button" class="cookie-bar__btn">OK</button><a href="https://photoblog.nomad.systems/Privacy/" target="_blank" class="cookie-bar__link cookie-bar__link--cookies-info">More information</a></span></div></div></body></html>
 <!-- // added below -->
-<style>
-.hidecontainer {
-  opacity: 0;
-  transition: 1s;
-}
-.showcontainer {
-  opacity: 1;
-  transition: 1s;
-}
-</style>
+<link type="text/css" rel="stylesheet" href="toggle.css">
 <script type="text/javascript" src="exchange-content.js"></script>
 
 <script>window.filter_targets=window.filter_targets||{}; window.filter_targets["r8-bl-element-listitems"]={fs:[null,"travel","city"],items:[["travel","city"],["travel"]]};</script>

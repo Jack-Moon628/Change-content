@@ -1,0 +1,8 @@
+.hidecontainer {
+  opacity: 0;
+  transition: 1s;
+}
+.showcontainer {
+  opacity: 1;
+  transition: 1s;
+}

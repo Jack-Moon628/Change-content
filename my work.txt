@@ -1,0 +1,21 @@
+1. You can see my work in
+
+	Javascript: public/exchange-content.js
+	CSS: public/toggle.css
+	HTML: resources/views/welcome.blade.php
+	
+2. What can you use?
+
+	1) For changing content: exchangeContent function
+
+		input value: 
+		id -  is the id of content that you want to change content.
+		data - is a string value you want to exchange to.
+			ex: can be found in database/seeders/ContentSeeder.php
+
+	2) For changing styling: changeStyle function
+
+		input value: 
+		id - is the id of content that you want to change style.
+		style_arr - is a string value you want to exchange to.
+			ex: [["background-color", "yellow"], ["color", "red"]]
